@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.5.1
 // - protoc             v5.28.2
-// source: exchangeService.proto
+// source: exchange.proto
 
 package exchange_grpc
 
@@ -155,5 +155,5 @@ var ExchangeService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "exchangeService.proto",
+	Metadata: "exchange.proto",
 }
