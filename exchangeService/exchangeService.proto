@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package exchange;
+package exchangeService;
 
-option go_package = "./;exchangeService";
+option go_package = "github.com/IlyaBroo/exchange_grpc/exchangeService/";
 
 service ExchangeService {
 
